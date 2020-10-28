@@ -1,0 +1,19 @@
+{
+  "name": "sequalize-redis-caching",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT", 
+  "scripts": {
+    "start": "npx nodemon -e js,html server.js"
+  },
+  "dependencies": {
+    "redis": "^3.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "mysql2": "^2.1.0",
+    "nunjucks": "^3.2.0",
+    "sequelize": "^4.42.0"
+  }
+}
